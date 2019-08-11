@@ -1,5 +1,7 @@
 package me.sebemsomi.domain.domain;
 
+import java.util.Objects;
+
 public class Employee {
 
     private int empNumber;
@@ -81,6 +83,20 @@ public class Employee {
             this.empLastName = employee.empLastName;
 
             return employee;
+        }
+        @Override
+        public boolean equals(Object o) {
+            if (this == o) return true;
+            if (o == null || getClass() != o.getClass()) return false;
+            Builder builder = (Builder) o;
+            return empNumber == builder.empNumber &&
+                    Objects.equals(empFirstName, builder.empFirstName) &&
+                    Objects.equals(empLastName, builder.empLastName);
+        }
+
+        @Override
+        public int hashCode() {
+            return Objects.hash(empNumber, empFirstName, empLastName);
         }
     }
 }
