@@ -1,6 +1,6 @@
 package me.sebemsomi.domain.service.employee;
 
-import me.sebemsomi.domain.domain.Employee;
+import me.sebemsomi.domain.domain.user.Employee;
 import me.sebemsomi.domain.service.Service;
 
 import java.util.Set;

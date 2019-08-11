@@ -1,6 +1,6 @@
-package me.sebemsomi.domain.repository.employee;
+package me.sebemsomi.domain.repository.user;
 
-import me.sebemsomi.domain.domain.Employee;
+import me.sebemsomi.domain.domain.user.Employee;
 import me.sebemsomi.domain.repository.IRepo;
 
 import java.util.Set;

@@ -1,7 +1,7 @@
 package me.sebemsomi.domain.service;
 
-import me.sebemsomi.domain.domain.Employee;
-import me.sebemsomi.domain.factory.EmployeeFactory;
+import me.sebemsomi.domain.domain.user.Employee;
+import me.sebemsomi.domain.factory.user.EmployeeFactory;
 import me.sebemsomi.domain.service.employee.EmployeeService;
 import me.sebemsomi.domain.service.employee.impl.EmployeeServiceImpl;
 import org.junit.Assert;
@@ -29,7 +29,7 @@ public class EmployeeServiceImplTest {
     @Test
     public void create() {
 
-        Employee employee = EmployeeFactory.getEmployee(1, "Riaz", "Khan");
+        Employee employee = EmployeeFactory.getEmployee(1, "Sebe", "Msomi");
 
         service.create(employee);
 
@@ -42,7 +42,7 @@ public class EmployeeServiceImplTest {
     @Test
     public void read() {
 
-        Employee employee = EmployeeFactory.getEmployee(1, "Riaz", "Khan");
+        Employee employee = EmployeeFactory.getEmployee(1, "Sebe", "Msomi");
 
         service.create(employee);
 
@@ -54,12 +54,12 @@ public class EmployeeServiceImplTest {
     @Test
     public void update() {
 
-        Employee employee = EmployeeFactory.getEmployee(1, "Riaz", "Khan");
+        Employee employee = EmployeeFactory.getEmployee(1, "Sebe", "Msomi");
 
         service.create(employee);
         Employee inRepo = service.read(employee.getEmpNumber());
 
-        employee.setEmpFirstName("Not Riaz");
+        employee.setEmpFirstName("Not Sebe");
 
         service.update(employee);
 
@@ -70,7 +70,7 @@ public class EmployeeServiceImplTest {
     @Test
     public void delete() {
 
-        Employee employee = EmployeeFactory.getEmployee(1, "Riaz", "Khan");
+        Employee employee = EmployeeFactory.getEmployee(1, "Sebe", "Msomi");
 
         service.create(employee);
 

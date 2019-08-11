@@ -1,6 +1,6 @@
 package me.sebemsomi.domain.service.race.impl;
 
-import me.sebemsomi.domain.domain.Race;
+import me.sebemsomi.domain.domain.demography.Race;
 import me.sebemsomi.domain.repository.race.RaceRepository;
 import me.sebemsomi.domain.repository.race.impl.RaceRepositoryImpl;
 import me.sebemsomi.domain.service.race.RaceService;

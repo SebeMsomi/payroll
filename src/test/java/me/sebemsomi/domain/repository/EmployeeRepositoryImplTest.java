@@ -1,9 +1,9 @@
 package me.sebemsomi.domain.repository;
 
-import me.sebemsomi.domain.domain.Employee;
-import me.sebemsomi.domain.factory.EmployeeFactory;
-import me.sebemsomi.domain.repository.employee.EmployeeRepository;
-import me.sebemsomi.domain.repository.employee.impl.EmployeeRepositoryImpl;
+import me.sebemsomi.domain.domain.user.Employee;
+import me.sebemsomi.domain.factory.user.EmployeeFactory;
+import me.sebemsomi.domain.repository.user.EmployeeRepository;
+import me.sebemsomi.domain.repository.user.impl.EmployeeRepositoryImpl;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -30,7 +30,7 @@ public class EmployeeRepositoryImplTest {
     @Test
     public void create() {
 
-        Employee employee = EmployeeFactory.getEmployee(1, "Riaz", "Khan");
+        Employee employee = EmployeeFactory.getEmployee(1, "Sebe", "Msomi");
 
         repository.create(employee);
 
@@ -43,7 +43,7 @@ public class EmployeeRepositoryImplTest {
     @Test
     public void read() {
 
-        Employee employee = EmployeeFactory.getEmployee(1, "Riaz", "Khan");
+        Employee employee = EmployeeFactory.getEmployee(1, "Sebe", "Msomi");
 
         repository.create(employee);
 
@@ -55,12 +55,12 @@ public class EmployeeRepositoryImplTest {
     @Test
     public void update() {
 
-        Employee employee = EmployeeFactory.getEmployee(1, "Riaz", "Khan");
+        Employee employee = EmployeeFactory.getEmployee(1, "Sebe", "Msomi");
 
         repository.create(employee);
         Employee inRepo = repository.read(employee.getEmpNumber());
 
-        employee.setEmpFirstName("Not Riaz");
+        employee.setEmpFirstName("Not Sebe");
 
         repository.update(employee);
 
@@ -71,7 +71,7 @@ public class EmployeeRepositoryImplTest {
     @Test
     public void delete() {
 
-        Employee employee = EmployeeFactory.getEmployee(1, "Riaz", "Khan");
+        Employee employee = EmployeeFactory.getEmployee(1, "Sebe", "Msomi");
 
         repository.create(employee);
 

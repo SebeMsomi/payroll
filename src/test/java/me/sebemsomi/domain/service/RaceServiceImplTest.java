@@ -1,7 +1,7 @@
 package me.sebemsomi.domain.service;
 
-import me.sebemsomi.domain.domain.Race;
-import me.sebemsomi.domain.factory.RaceFactory;
+import me.sebemsomi.domain.domain.demography.Race;
+import me.sebemsomi.domain.factory.demography.RaceFactory;
 import me.sebemsomi.domain.service.race.RaceService;
 import me.sebemsomi.domain.service.race.impl.RaceServiceImpl;
 import org.junit.Assert;

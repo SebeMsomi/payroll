@@ -1,6 +1,6 @@
 package me.sebemsomi.domain.repository.gender.impl;
 
-import me.sebemsomi.domain.domain.Gender;
+import me.sebemsomi.domain.domain.demography.Gender;
 import me.sebemsomi.domain.repository.gender.GenderRepository;
 
 import java.util.HashSet;

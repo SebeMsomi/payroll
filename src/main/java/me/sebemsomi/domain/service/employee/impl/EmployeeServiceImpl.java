@@ -1,8 +1,8 @@
 package me.sebemsomi.domain.service.employee.impl;
 
-import me.sebemsomi.domain.domain.Employee;
-import me.sebemsomi.domain.repository.employee.EmployeeRepository;
-import me.sebemsomi.domain.repository.employee.impl.EmployeeRepositoryImpl;
+import me.sebemsomi.domain.domain.user.Employee;
+import me.sebemsomi.domain.repository.user.EmployeeRepository;
+import me.sebemsomi.domain.repository.user.impl.EmployeeRepositoryImpl;
 import me.sebemsomi.domain.service.employee.EmployeeService;
 
 import java.util.Set;

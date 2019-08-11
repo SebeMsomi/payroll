@@ -1,6 +1,7 @@
 package me.sebemsomi.domain.factory;
 
-import me.sebemsomi.domain.domain.Race;
+import me.sebemsomi.domain.domain.demography.Race;
+import me.sebemsomi.domain.factory.demography.RaceFactory;
 import org.junit.Assert;
 import org.junit.Test;
 

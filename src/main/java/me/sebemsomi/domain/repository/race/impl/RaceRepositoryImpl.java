@@ -1,6 +1,6 @@
 package me.sebemsomi.domain.repository.race.impl;
 
-import me.sebemsomi.domain.domain.Race;
+import me.sebemsomi.domain.domain.demography.Race;
 import me.sebemsomi.domain.repository.race.RaceRepository;
 
 import java.util.HashSet;

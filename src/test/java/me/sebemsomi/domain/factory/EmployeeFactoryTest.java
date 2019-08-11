@@ -1,6 +1,7 @@
 package me.sebemsomi.domain.factory;
 
-import me.sebemsomi.domain.domain.Employee;
+import me.sebemsomi.domain.domain.user.Employee;
+import me.sebemsomi.domain.factory.user.EmployeeFactory;
 import org.junit.Assert;
 import org.junit.Test;
 

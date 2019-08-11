@@ -1,7 +1,7 @@
-package me.sebemsomi.domain.repository.employee.impl;
+package me.sebemsomi.domain.repository.user.impl;
 
-import me.sebemsomi.domain.domain.Employee;
-import me.sebemsomi.domain.repository.employee.EmployeeRepository;
+import me.sebemsomi.domain.domain.user.Employee;
+import me.sebemsomi.domain.repository.user.EmployeeRepository;
 
 import java.util.HashSet;
 import java.util.Set;

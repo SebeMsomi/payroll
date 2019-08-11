@@ -1,6 +1,6 @@
 package me.sebemsomi.domain.service.gender.impl;
 
-import me.sebemsomi.domain.domain.Gender;
+import me.sebemsomi.domain.domain.demography.Gender;
 import me.sebemsomi.domain.repository.gender.GenderRepository;
 import me.sebemsomi.domain.repository.gender.impl.GenderRepositoryImpl;
 import me.sebemsomi.domain.service.gender.GenderService;

@@ -1,6 +1,7 @@
 package me.sebemsomi.domain.factory;
 
-import me.sebemsomi.domain.domain.EmployeeGender;
+import me.sebemsomi.domain.domain.user.EmployeeGender;
+import me.sebemsomi.domain.factory.user.EmployeeGenderFactory;
 import org.junit.Assert;
 import org.junit.Test;
 

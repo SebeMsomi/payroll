@@ -1,7 +1,7 @@
 package me.sebemsomi.domain.repository;
 
-import me.sebemsomi.domain.domain.Gender;
-import me.sebemsomi.domain.factory.GenderFactory;
+import me.sebemsomi.domain.domain.demography.Gender;
+import me.sebemsomi.domain.factory.demography.GenderFactory;
 import me.sebemsomi.domain.repository.gender.GenderRepository;
 import me.sebemsomi.domain.repository.gender.impl.GenderRepositoryImpl;
 import org.junit.Assert;

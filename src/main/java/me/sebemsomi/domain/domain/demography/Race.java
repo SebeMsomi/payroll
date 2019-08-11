@@ -1,4 +1,4 @@
-package me.sebemsomi.domain.domain;
+package me.sebemsomi.domain.domain.demography;
 
 public class Race {
     private int raceID;
